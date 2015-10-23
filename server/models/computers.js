@@ -8,4 +8,4 @@ Computer = new Schema({
 });
 
 mongoose.connect(process.env.MONGO_URI);
-module.exports = mongoose.modle('computers', Computer);
+module.exports = mongoose.model('computers', Computer);
